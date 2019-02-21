@@ -1,0 +1,83 @@
+body {
+  background-image: url("../_images/Header image/Godfather header.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+h1 {
+}
+
+.sidebar {
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.8);
+  position:fixed;
+}
+
+.mainbody {
+  flex: right;
+}
+
+.col-md-3 {
+  color: white;
+  /* margin: 2px; */
+  background-color: #fff;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.main {
+  color: black;
+  padding: 2.5%;
+  background-color: rgba(255,255,255,0.5);
+}
+
+#logo {
+  padding-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#members {
+  text-align: center;
+  padding: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border: solid 2px white;
+}
+
+.name {
+  font-size: 24px;
+  float: left;
+  text-decoration: underline;
+}
+
+.biography {
+  font-size: 16px;
+  float: right;
+  display: flex;
+}
+
+.popularity{
+  display: none;
+}
+
+.image {
+  border: solid black 1px;
+  float: left;
+  display: flex;
+}
+
+.colleagues {
+  margin: 10%;
+  margin-bottom: 500px;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
